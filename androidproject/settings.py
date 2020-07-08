@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'noc2dr*6itr_896nzr6l42i&v15w&rb&m@)cxcf-6knx_ej(x0'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['androidapitest01.herokuapp.com/']
 
 
 # Application definition
